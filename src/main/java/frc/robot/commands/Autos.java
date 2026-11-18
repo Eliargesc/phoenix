@@ -24,4 +24,7 @@ public final class Autos {
                 .finallyDo(drive::stop)
                 .withName(AutoConstants.kForwardName);
     }
+
+    // TODO: autonomo con el shooter. El equipo aun no define rutinas ni tiempos; cuando los
+    // defina, se arman con shooter.intakeCommand(), shootCommand() y ejectCommand().
 }
